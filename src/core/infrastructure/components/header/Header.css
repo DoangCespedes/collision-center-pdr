@@ -1,0 +1,23 @@
+/* sticky top-0 z-[1] mx-auto  flex w-full max-w-7xl flex-wrap items-center justify-between 
+border-b border-gray-100 bg-background p-[2em] font-sans font-bold uppercase 
+text-text-primary backdrop-blur-[100px] dark:border-gray-800 dark:bg-d-background 
+dark:text-d-text-primary */
+
+.hdr{
+    position: sticky;
+    margin-top: 0px;
+    z-index: 1;
+    max-width: auto;
+    display: flex;
+    /* width: full; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px;
+    /* border-gray: 100px; */
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    
+    
+}
