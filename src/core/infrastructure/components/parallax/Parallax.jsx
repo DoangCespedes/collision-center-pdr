@@ -1,4 +1,5 @@
 import "./Parallax.css"
+import a from "../../../../assets/logo.png"
 
 const Parallax = () => {
   return (
@@ -6,7 +7,7 @@ const Parallax = () => {
         <div className="bgimg-1">
             {/* ESTE DIV ES LA BASE DEL PARALLAX , LO QUE HACEMOS ES REPLICARLO COMO bgimg-2 y bgimg-3*/}
             <div className="caption">
-                <span className="border">Parallax-TEST</span>
+                <span className="border"></span>
             </div>
         </div>
 
@@ -25,7 +26,7 @@ const Parallax = () => {
         </div>
 
         <div className="section">
-            <h3 className="border">WWW.ASDKJFJH.COM</h3>
+            <h3 className="border"><b>Collision - Center & PDR</b></h3>
             <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam labore quo similique nesciunt quas fugit magnam quis vitae debitis reiciendis.
                 Illo, magni quam vitae suscipit sunt doloremque vero mollitia quisquam.
