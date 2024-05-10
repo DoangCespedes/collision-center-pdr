@@ -11,7 +11,9 @@ const App = () => {
         <title>Collision Center & PDR</title> 
       </Helmet>
 
-      <Nav/>
+      <div style={{marginBottom:"14vh"}}>
+        <Nav/>
+      </div>
       <AppRouter/>
     </>
   )

@@ -5,6 +5,7 @@ import {TiGroupOutline} from 'react-icons/ti'
 import {IoLogoFacebook} from 'react-icons/io'
 import {SiMaplibre} from 'react-icons/si'
 import {FaInstagramSquare} from 'react-icons/fa'
+import logo from "../../../../assets/logo2.png"
 
 
 export const Nav = () => {
@@ -12,7 +13,9 @@ export const Nav = () => {
     <>
         <nav className="navbar navbar-dark bg-dark fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">Offcanvas dark navbar</a>
+                <Link to='/'>
+                    <img src={logo}/>
+                </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
