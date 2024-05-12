@@ -1,27 +1,28 @@
 import "./Parallax.css"
-import a from "../../../../assets/logo.png"
+import logo from "../../../../assets/logo3.png"
+import { BiSolidCarMechanic } from "react-icons/bi";
 
 const Parallax = () => {
   return (
     <div>
         <div className="bgimg-1">
-            {/* ESTE DIV ES LA BASE DEL PARALLAX , LO QUE HACEMOS ES REPLICARLO COMO bgimg-2 y bgimg-3*/}
             <div className="caption">
-                <span className="border"></span>
+                    <img src={logo} style={{width:"35vw", color:"black"}}/>
             </div>
         </div>
 
-        <div className="section">
-            <h3 className="border">Doang y leo son los mejores</h3>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam labore quo similique nesciunt quas fugit magnam quis vitae debitis reiciendis.
-                Illo, magni quam vitae suscipit sunt doloremque vero mollitia quisquam.
-            </p>
+        <div className="section" style={{ color:"#f5f5f5", background:"#202020"}}>
+            <div style={{width:"70%", textAlign:"center"}}>
+                <h2><BiSolidCarMechanic/> Welcome to Collision Center & PDR !! <BiSolidCarMechanic/></h2>
+                <p style={{fontSize:"1.3rem"}}>
+                    Your premier destination for auto repair in Colorado! With over 20 years of experience, we provide dent, collision, and hail damage repair services. Our highly skilled team ensures flawless results using state-of-the-art technology. We prioritize customer satisfaction and vehicle integrity. Explore our services online and contact us to schedule an appointment. Thank you for choosing Collision Center & PDR to restore your vehicle's beauty and performance!
+                </p>
+            </div>
         </div>
 
         <div className="bgimg-2">
             <div className="caption">
-                <span className="border">Parallax-TEST-2</span>
+                <span className="border">Discover Our Premier Services</span>
             </div>
         </div>
 
@@ -38,9 +39,9 @@ const Parallax = () => {
         </div>
 
         <div className="bgimg-3">
-            <div className="caption">
+            {/* <div className="caption">
                 <span className="border">Parallax-TEST-3</span>
-            </div>
+            </div> */}
         </div>
 
 

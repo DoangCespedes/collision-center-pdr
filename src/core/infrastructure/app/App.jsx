@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet'
 import AppRouter from '../../../router/AppRouter'
 import { Header } from '../components/header/Header'
 import { Nav } from '../components/navbar/Nav'
+import Footer from '../components/footer/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Nav/>
       </div>
       <AppRouter/>
+      <Footer/>
     </>
   )
 }
