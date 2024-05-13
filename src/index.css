@@ -1,5 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&family=Outfit:wght@500&display=swap'); */
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&display=swap');
 
 :root{
     --mainColor: #202020;
@@ -28,15 +29,16 @@ body {
 
 }
 
-/* h2, h3{
-     color: rgb(253, 2, 2);  
+h2, h3{
+     /* color: rgb(253, 2, 2);  
     background: #212529;
     background: linear-gradient(00deg, #212529, #ff0303);
     font-size: 2.5rem;
 
     --webkit-text-fill-color: transparent;
-    --webkit-background-clip:text;
-} */
+    --webkit-background-clip:text; */
+    font-family: Kanit,'Outfit','Montserrat', sans-serif;
+}
 
 /* p{
     color: #ffffff;
