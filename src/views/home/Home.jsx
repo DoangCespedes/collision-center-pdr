@@ -1,6 +1,7 @@
 import "./Styles.css"
 // import Parallax from '../../core/infrastructure/components/parallax/Parallax'
 import logo from "../../assets/logo3.png"
+import meta from "../../assets/meta.webp"
 import { BiSolidCarMechanic } from "react-icons/bi";
 
 export const Home = () => {
@@ -13,9 +14,22 @@ export const Home = () => {
                 </div>
             </div>
 
-            <article className="section container" style={{ color:"#f5f5f5", background:"#202020"}}>
-                <div style={{width:"70%", textAlign:"center"}}>
+            <article className="section">
+                
+                <div className="secunt">
+                    <p style={{fontSize:"1.3rem"}}>
+                        Your premier destination for auto repair in Colorado! With over 20 years of experience, we provide dent, collision, and hail damage repair services. Our highly skilled team ensures flawless results using state-of-the-art technology. We prioritize customer satisfaction and vehicle integrity. Explore our services online and contact us to schedule an appointment. Thank you for choosing Collision Center & PDR to restore your vehicle's beauty and performance!
+                    </p>
+                </div>
+
+                <div className="first">
                     <h2><BiSolidCarMechanic/> Welcome to Collision Center & PDR !! <BiSolidCarMechanic/></h2>
+                    <p style={{fontSize:"1.3rem"}}>
+                        Your premier destination for auto repair in Colorado! With over 20 years of experience, we provide dent, collision, and hail damage repair services. Our highly skilled team ensures flawless results using state-of-the-art technology. We prioritize customer satisfaction and vehicle integrity. Explore our services online and contact us to schedule an appointment. Thank you for choosing Collision Center & PDR to restore your vehicle's beauty and performance!
+                    </p>
+                </div>
+                
+                <div className="secunt">
                     <p style={{fontSize:"1.3rem"}}>
                         Your premier destination for auto repair in Colorado! With over 20 years of experience, we provide dent, collision, and hail damage repair services. Our highly skilled team ensures flawless results using state-of-the-art technology. We prioritize customer satisfaction and vehicle integrity. Explore our services online and contact us to schedule an appointment. Thank you for choosing Collision Center & PDR to restore your vehicle's beauty and performance!
                     </p>
