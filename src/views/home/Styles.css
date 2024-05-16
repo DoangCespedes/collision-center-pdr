@@ -1,0 +1,73 @@
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1{
+    background-image: url("../../assets/colorado.jpg");
+    min-height: 100vh;
+}
+
+.bgimg-2{
+    background-image: url("../../assets/b.jpg");
+    min-height: 30vh;
+}
+.bgimg-3{
+    background-image: url("../../assets/c.jpg");
+    min-height: 100vh;
+}
+
+.caption { 
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption .border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 1rem;
+    letter-spacing: 10px;
+
+}
+
+.section{
+    /* height: 250px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: o 200px;
+}
+
+@media only screen and (max-width: 810px){
+    
+    .bgimg-1{
+        min-height: 50vh;
+    }
+    
+    .bgimg-2{
+        min-height: 30vh;
+    }
+    .bgimg-3{
+        min-height: 50vh;
+    }
+
+    .caption { 
+         
+    }
+
+    .caption .border{ 
+        font-size: 0.5rem;
+    }
+}
