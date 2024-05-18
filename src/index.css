@@ -2,7 +2,7 @@
 
 :root{
     --mainColor: #202020;
-    /* --mainColorLight: rgba(0,0,0, 0.6); */
+    --mainColorLight: rgba(255,255,255, 0.2);
     /* --secondaryColor: rgba(255,13,0);*/
     --textColor:#f5f5f5;
     /* --btnColor: #1000f5;
