@@ -6,6 +6,7 @@ import {IoLogoFacebook} from 'react-icons/io'
 import {SiMaplibre} from 'react-icons/si'
 import {FaInstagramSquare} from 'react-icons/fa'
 import logo from "../../../../assets/logo2.png"
+import c from "../../../../assets/ceramic.jpg"
 
 
 export const Nav = () => {
@@ -45,6 +46,7 @@ export const Nav = () => {
                         <Link to='/about'>
                             <li className="nav-item">
                                     <p className="nav-link active" aria-current="page" >About</p>
+                                    <img src={c}/>
                             </li> 
                         </Link>
                         <Link to='/work'>
