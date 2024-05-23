@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom"
 import {ImMail} from 'react-icons/im'
-import {FaWhatsappSquare} from 'react-icons/fa'
+import {FaFlagCheckered, FaWhatsappSquare} from 'react-icons/fa'
 import {TiGroupOutline} from 'react-icons/ti'
 import {IoLogoFacebook} from 'react-icons/io'
 import {SiMaplibre} from 'react-icons/si'
 import {FaInstagramSquare} from 'react-icons/fa'
 import logo from "../../../../assets/logo2.png"
-import c from "../../../../assets/ceramic.jpg"
+// import c from "../../../../assets/ceramic.jpg"
 
 
 export const Nav = () => {
@@ -22,7 +22,7 @@ export const Nav = () => {
                 </button>
                 <div className="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                 <div className="offcanvas-header">
-                    <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">Collision-Center-&-PDR</h5>
+                    <h3 className="offcanvas-title" id="offcanvasDarkNavbarLabel"><FaFlagCheckered/> Collision-Center-&-PDR <FaFlagCheckered/></h3>
                     <button type="button" className="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div className="offcanvas-body">
@@ -30,30 +30,63 @@ export const Nav = () => {
                         
                         <Link to='/'>
                             <li className="nav-item">
-                                    <p style={{fontSize:'1.2em'}} className="nav-link active" aria-current="page" >Home</p>
+                                <h3  className="nav-link active" aria-current="page" >Home <FaFlagCheckered/></h3>
                             </li> 
                         </Link>
                         <Link to='/gallery'>
                             <li className="nav-item">
-                                    <p className="nav-link active" aria-current="page" >Gallery</p>
+                                <h3 className="nav-link active" aria-current="page" >Gallery <FaFlagCheckered/></h3>
                             </li> 
                         </Link>
                         <Link to='/contact'>
                             <li className="nav-item">
-                                    <p className="nav-link active" aria-current="page" >Contact</p>
+                                <h3 className="nav-link active" aria-current="page" >Contact <FaFlagCheckered/></h3>
                             </li> 
                         </Link>
-                        <Link to='/about'>
-                            <li className="nav-item">
-                                    <p className="nav-link active" aria-current="page" >About</p>
-                                    <img src={c}/>
-                            </li> 
-                        </Link>
-                        <Link to='/work'>
-                            <li className="nav-item">
-                                    <p className="nav-link active" aria-current="page" >My work</p>
-                            </li> 
-                        </Link>
+
+                        <li className="nav-item dropdown" style={{textAlign:"end"}}>
+                        <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <h5> My work <FaFlagCheckered/></h5>
+                        </a>
+                        <ul className="dropdown-menu dropdown-menu-dark">
+                            <Link to='/auto-detailing'>
+                                <li className="dropdown-item">
+                                    <h3 className="nav-link active" aria-current="page" style={{textAlign:"center"}}>Auto Detailing <FaFlagCheckered/></h3>
+                                </li> 
+                            </Link>
+                            <Link to='/ceramic-coatings'>
+                                <li className="dropdown-item">
+                                    <h3 className="nav-link active" aria-current="page" style={{textAlign:"center"}}>Ceramic Coatings <FaFlagCheckered/></h3>
+                                </li> 
+                            </Link>
+                            <Link to='/hail-dent-repair'>
+                                <li className="dropdown-item">
+                                    <h3 className="nav-link active" aria-current="page" style={{textAlign:"center"}}>Hail  Dent Repair <FaFlagCheckered/></h3>
+                                </li> 
+                            </Link>
+                            <Link to='/paint-corrections'>
+                                <li className="dropdown-item">
+                                    <h3 className="nav-link active" aria-current="page" style={{textAlign:"center"}}>Paint Corrections <FaFlagCheckered/></h3>
+                                </li> 
+                            </Link>
+                            <Link to='/vehicle-restoration'>
+                                <li className="dropdown-item">
+                                    <h3 className="nav-link active" aria-current="page" style={{textAlign:"center"}}>Vehicle Restoration <FaFlagCheckered/></h3>
+                                </li> 
+                            </Link>
+                            <Link to='"/window-tinting'>
+                                <li className="dropdown-item">
+                                    <h3 className="nav-link active" aria-current="page" style={{textAlign:"center"}}>WindowTinting <FaFlagCheckered/></h3>
+                                </li> 
+                            </Link>
+                            {/* <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#"><IoLogoFacebook/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#"><FaInstagramSquare/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#"><FaWhatsappSquare/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#" ><ImMail/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#" ><SiMaplibre/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#" ><ImMail/></a></li> */}
+                        </ul>
+                    </li>
 
                     <li className="nav-item dropdown">
                         {/* <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

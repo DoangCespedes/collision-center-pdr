@@ -1,0 +1,27 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 3rem;
+}
+
+.map{
+    flex-direction: column;
+    width: 60%;
+    padding: 1rem;
+}
+
+.form{
+    flex-direction: column;
+    width: 40%;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 850px){
+
+    .map,
+    .form{
+        width: 100%;
+    
+    }
+}
