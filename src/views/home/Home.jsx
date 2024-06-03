@@ -4,7 +4,7 @@ import a from "../../assets/4.jpg"
 import { BiSolidCarMechanic } from "react-icons/bi";
 import { FaFlagCheckered } from "react-icons/fa";
 import { Cards } from "../../core/infrastructure/components/cards/Cards";
-import { ImagesGalery3 } from "../../core/infrastructure/components/galeries/galery1/ImagesGallery";
+import { ImagesGalery } from "../../core/infrastructure/components/galeries/gallery1/ImagesGallery";
 
 export const Home = () => {
   return (
@@ -31,9 +31,7 @@ export const Home = () => {
                     
                 </div>
 
-                
-                
-                <ImagesGalery3/>
+                <ImagesGalery/>
                 
             </article>
 
@@ -58,24 +56,9 @@ export const Home = () => {
                     <br/><br/>When you choose Collision Center & PDR, you're choosing a trusted partner dedicated to restoring your vehicle's beauty and performance.
                     </p>
                 </div>
-
-                {/* <div className="secunt">
-                    <img src={a} style={{width:"250px"}}/>
-                </div> */}
             </article>
 
-                {/* <div className="third">
-                    <div style={{color:"white", cursor:"pointer", textAlign:"center", border:'2spx solid #f5f5f5',borderRadius:"25%",background:"red"}}>
-                        <h5>Agenda tu cita <BiSolidCarMechanic/></h5>
-                    </div>
-
-                </div>
-
-            <div className="bgimg-2">
-                <div className="caption">
-                    <span className="border">Discover Our Premier Services</span>
-                </div>
-            </div> */}
+                
 
             <div className="container">
                 <h2 style={{textAlign:"center", marginTop:"3rem",  background:"rgba(100,100,100, 0.7)", borderRadius:"10px 10px 10px 10px"}}> <FaFlagCheckered/> Discover Our Premier Services <FaFlagCheckered/></h2>
@@ -86,16 +69,11 @@ export const Home = () => {
             </div>
 
 
-            <div className="bgimg-1">
+            <div className="bgimg-2">
                 <div className="caption">
-                        <span className="border">contactanos</span> 
                         <img src={logo} className="logo-cap"/>
                 </div>
             </div>
-
-
-            
-
 
         </div>
     </>
