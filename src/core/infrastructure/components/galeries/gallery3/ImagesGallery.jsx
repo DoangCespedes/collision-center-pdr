@@ -12,11 +12,7 @@ export const ImagesGalery3 = () => {
   return (
     <div className='container'>
         <section>
-        <img
-            
-            src={a}
-            alt="First slide"
-          />
+        
         <img
             
             src={b}
@@ -35,6 +31,11 @@ export const ImagesGalery3 = () => {
       <img
             
             src={e}
+            alt="First slide"
+          />
+          <img
+            
+            src={a}
             alt="First slide"
           />
       <img

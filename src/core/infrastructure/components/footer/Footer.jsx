@@ -14,32 +14,37 @@ const Footer = () => {
     <>
         <footer>
 
-            <div class="container__footer">
-                <div class="box__footer_logo">
-                    <div class="logo">
+            <div className="container__footer">
+                
+                <div className="box__footer">
+                    <div className="terms">
+                        <h4>Collision center & PDR <br/> Your Trusted Auto Repair Partner</h4>
+                        <p>At Collision Center & PDR, we are dedicated to providing the highest quality auto repair services 
+                        with integrity and excellence. Our skilled technicians, state-of-the-art technology, 
+                        and commitment to customer satisfaction ensure that your vehicle receives the best care possible.
+                        Thank you for trusting us with your repair needs. Drive safe and with confidence!</p>
+                    </div>
+                </div>
+                
+                <div className="box__footer_logo">
+                    <div className="logo">
                     <NavLink to='/'><img src={logo} alt="logo"/></NavLink>
                     </div>
                 </div>
-                <div class="box__footer">
-                    <div class="terms">
-                        <h4>Collision center & PDR</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quasi corrupti perferendis porro dicta, rerum maiores ab commodi reiciendis ad quas neque distinctio suscipit optio et quam doloremque numquam quod?</p>
-                    </div>
+
+                
+
+                <div className="box__footer">
+                    
+                    <NavLink to='/hail-dent-repair'><h6>Hail  Dent Repair</h6></NavLink>
+                    <NavLink to='/paint-corrections'><h6>Paint Corrections</h6></NavLink>      
+                    <NavLink to='/vehicle-restoration'><h6>Vehicle Restoration </h6></NavLink>      
+                    <NavLink to='/window-tinting'><h6>Window Tinting </h6></NavLink>      
+                    <NavLink to='/auto-detailing'><h6>Auto Detailing</h6></NavLink>      
+                    <NavLink to='/ceramic-coatings'><h6>Ceramic Coatings</h6></NavLink>       
                 </div>
 
-                <div class="box__footer">
-                    <h4>Info</h4>
-                    <NavLink to='/contact'>Contact</NavLink>  
-                    <NavLink to='/galery'>Galery</NavLink>        
-                </div>
-
-                <div class="box__footer">
-                    <h4>Dcumentation</h4>
-                    <NavLink to='/mywork'>My_Work</NavLink>
-                    <NavLink to='/about'>About</NavLink>      
-                </div>
-
-                <div class="box__footer">
+                <div className="box__footer">
                     <h4>Social Networks</h4>
                     <a href="#"> <IoLogoFacebook/> Facebook</a>
                     <a href="#"><SiMaplibre/> GoogleMap</a>
@@ -49,7 +54,7 @@ const Footer = () => {
 
             </div>
             <hr/>
-            <div class="box__copyright">
+            <div className="box__copyright">
                 
                 <p>All rights reserved © 2024 <b>Collision center & PDR</b></p>
             </div>

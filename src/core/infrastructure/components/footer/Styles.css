@@ -86,13 +86,14 @@ hr{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 0;
     }
 
     .box__footer{
         display: inline-block;
         justify-content: center;
         text-align: center;
-        padding: 3rem;
+        padding: 2rem;
     }
     .box__footer a{
         display: inline-block;

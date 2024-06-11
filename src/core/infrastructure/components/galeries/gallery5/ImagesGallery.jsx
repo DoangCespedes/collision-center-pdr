@@ -1,9 +1,9 @@
-import a from '../../../../../assets/mustang/a.jpeg';
-import b from '../../../../../assets/mustang/b.jpeg';
-import c from '../../../../../assets/mustang/c.jpeg';
-import e from '../../../../../assets/mustang/d.jpeg';
-import d from '../../../../../assets/mustang/e.jpeg';
-import f from '../../../../../assets/mustang/f.jpeg';
+import a from '../../../../../assets/cabina roja/a.jpeg';
+import b from '../../../../../assets/cabina roja/b.jpeg';
+import c from '../../../../../assets/cabina roja/c.jpeg';
+import e from '../../../../../assets/cabina roja/d.jpeg';
+import d from '../../../../../assets/cabina roja/e.jpeg';
+import f from '../../../../../assets/cabina roja/f.jpeg';
 
 
 import './Styles.css'

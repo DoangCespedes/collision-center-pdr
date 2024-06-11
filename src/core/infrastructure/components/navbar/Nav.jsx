@@ -4,6 +4,7 @@ import {FaFlagCheckered, FaWhatsappSquare} from 'react-icons/fa'
 import {IoLogoFacebook} from 'react-icons/io'
 import {SiMaplibre} from 'react-icons/si'
 import {FaInstagramSquare} from 'react-icons/fa'
+import { AiFillTikTok } from "react-icons/ai";
 import logo from "../../../../assets/logo2.png"
 import { FiPhoneCall } from "react-icons/fi"
 import "./Styles.css"
@@ -18,7 +19,7 @@ export const Nav = () => {
                     <img src={logo}/>
                 </Link>
                 <div className="call">
-                <h6> <span><FiPhoneCall/></span> CALL US: +1.719.283.7020 <br/><span><FiPhoneCall/></span> CALL US: +1.786.636.4189</h6>
+                <h6> <span><FiPhoneCall/></span> CALL US: +1.719.302.1297 <br/><span><FiPhoneCall/></span> CALL US: +1.786.636.4189</h6>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -80,7 +81,7 @@ export const Nav = () => {
                             </Link>
                             <Link to='"/window-tinting'>
                                 <li className="dropdown-item">
-                                    <h3 className="nav-link active" aria-current="page" style={{textAlign:"center"}}>WindowTinting <FaFlagCheckered/></h3>
+                                    <h3 className="nav-link active" aria-current="page" style={{textAlign:"center"}}>Window Tinting <FaFlagCheckered/></h3>
                                 </li> 
                             </Link>
                         </ul>
@@ -91,12 +92,11 @@ export const Nav = () => {
                         Dropdown
                         </a> */}
                         <ul className="dropdown-menu dropdown-menu-dark" style={{display:"flex"}}>
-                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#"><IoLogoFacebook/></a></li>
-                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#"><FaInstagramSquare/></a></li>
-                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#"><FaWhatsappSquare/></a></li>
-                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#" ><ImMail/></a></li>
-                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#" ><SiMaplibre/></a></li>
-                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="#" ><ImMail/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="https://www.facebook.com/profile.php?id=100072790695784"><IoLogoFacebook/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="https://www.instagram.com/collicenter_pdr/"><FaInstagramSquare/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="https://wa.me/17866364189?text=I%20want%20a%20date%20in%20Collicion%20Center%20&%20PDR"><FaWhatsappSquare/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="https://www.tiktok.com/@joseventura9577?lang=es" ><AiFillTikTok/></a></li>
+                            <li style={{fontSize:'26px'}}><a className="dropdown-item" href="https://maps.app.goo.gl/FRbDBYYeYSpZ48wM9" ><SiMaplibre/></a></li>
                         </ul>
                     </li>
                     </ul>

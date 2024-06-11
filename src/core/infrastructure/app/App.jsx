@@ -4,6 +4,8 @@ import AppRouter from '../../../router/AppRouter'
 import { Header } from '../components/header/Header'
 import { Nav } from '../components/navbar/Nav'
 import Footer from '../components/footer/Footer'
+import { NavSeedDial } from '../components/navSpeedDial/NavSeedDial'
+
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
         <Nav/>
       </div>
       <AppRouter/>
+      <NavSeedDial/>
       <Footer/>
     </>
   )

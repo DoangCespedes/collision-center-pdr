@@ -27,14 +27,15 @@ export const ImagesGalery7 = () => {
             src={c}
             alt="First slide"
           />
-      <img
-            
-            src={d}
-            alt="First slide"
-          />
+      
       <img
             
             src={e}
+            alt="First slide"
+          />
+          <img
+            
+            src={d}
             alt="First slide"
           />
       <img

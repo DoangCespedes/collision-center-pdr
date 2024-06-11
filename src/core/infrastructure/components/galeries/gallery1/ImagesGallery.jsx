@@ -1,7 +1,7 @@
 import a from '../../../../../assets/corvete/a.jpeg';
-import b from '../../../../../assets/ram/g.jpeg';
+import b from '../../../../../assets/ram/f.jpeg';
 import d from '../../../../../assets/mustang/f.jpeg';
-import c from '../../../../../assets/corolla/k.jpeg';
+import c from '../../../../../assets/corolla/g.jpeg';
 import e from '../../../../../assets/silverado/b.jpeg';
 import f from '../../../../../assets/mustag gris/d.jpeg';
 
