@@ -41,7 +41,7 @@ export const Home = () => {
                 <div >
                     <h2 style={{textAlign:"center", background:"rgba(100,100,100, 0.7)", borderRadius:"10px 10px 10px 10px"}}><FaFlagCheckered/> Why Choose Collision Center & PDR in Colorado? <FaFlagCheckered/></h2>
                     <p style={{textAlign:"end"}}>
-                    At Collision Center & PDR, we pride ourselves on providing exceptional auto repair services with over 5 years of experience. Here are several reasons why we stand out as the best choice for your vehicle repair needs in Colorado:
+                    At Collision Center & PDR, we pride ourselves on providing exceptional auto repair services with over 15 years of experience. Here are several reasons why we stand out as the best choice for your vehicle repair needs in Colorado:
 
                     <br/><br/><h5>Comprehensive Services:</h5> From PDR and collision repair to hail damage, painting, interior repair, and more.
 
