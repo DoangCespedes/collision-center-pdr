@@ -1,10 +1,10 @@
-import React from 'react'
+
 import { Helmet } from 'react-helmet'
 import AppRouter from '../../../router/AppRouter'
-import { Header } from '../components/header/Header'
-import { Nav } from '../components/navbar/Nav'
+// import { Nav } from '../components/navbar/Nav'
 import Footer from '../components/footer/Footer'
 import { NavSeedDial } from '../components/navSpeedDial/NavSeedDial'
+import Appbar from '../components/navbar/nav/Appbar'
 
 
 const App = () => {
@@ -15,7 +15,8 @@ const App = () => {
       </Helmet>
 
       <div style={{marginBottom:"14vh"}}>
-        <Nav/>
+        {/* <Nav/> */}
+        <Appbar/>
       </div>
       <AppRouter/>
       <NavSeedDial/>

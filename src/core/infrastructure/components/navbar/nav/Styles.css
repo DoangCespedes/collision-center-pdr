@@ -1,0 +1,35 @@
+:root {
+    --main-text-color: #f5f5f5;
+    --main-bg-color: #343a40; /* Ejemplo de color de fondo oscuro */
+    --highlight-color: #ffc107; /* Puedes usarlo para los botones de advertencia */
+    --spacing-sm: 0.3rem;
+    --font-size-sm: 0.9rem; /* Tamaño de fuente ligeramente más grande para mejor legibilidad */
+}
+
+.navbar {
+    padding: 0.5rem 1rem; /* Ajusta el padding para reducir la altura */
+}
+
+.navbar-logo {
+    width: 5.5rem; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción */
+}
+
+
+.call {
+    margin-left: auto;
+    margin-right: 2rem;
+    color: var(--main-text-color);
+}
+
+.routes {
+    font-size: var(--font-size-sm);
+    color: var(--main-text-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Alinea los íconos con el texto */
+}
+
+.btns {
+    margin-left: var(--spacing-sm);
+}

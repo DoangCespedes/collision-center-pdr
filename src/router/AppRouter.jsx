@@ -1,14 +1,12 @@
-import React from 'react'
+
 import { Route, Routes } from 'react-router-dom'
 import { Gallery } from '../views/gallery/Gallery'
 import { Contact } from '../views/contact/Contact'
 import { Home } from '../views/home/Home'
-import { AutoDetailing } from '../views/work/AutoDetailing/AutoDetailing'
-import { HailDentRepair } from '../views/work/HailDentRepair/HailDentRepair'
-import { PaintCorrections } from '../views/work/PaintCorrections/PaintCorrections'
-import { VehicleRestoration } from '../views/work/VehicleRestoration/VehicleRestoration'
-import { WindowTinting } from '../views/work/WindowTinting/WindowTinting'
-import { CeramicCoatings } from '../views/work/CeramicCoatings/CeramicCoatings'
+import { Detailing } from '../views/work/Detailing/Detailing'
+import { PDR } from '../views/work/PDR/PDR'
+import Collision from '../views/work/collision/Collision'
+import DoorDing from '../views/work/doorDing/DoorDing'
 
 const AppRouter = () => {
   return (
@@ -16,13 +14,14 @@ const AppRouter = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/contact" element={<Contact/>} />
-        {/* <Route path="/about" element={<About/>} /> */}
-        <Route path="/auto-detailing" element={<AutoDetailing/>} />
-        <Route path="/ceramic-coatings" element={<CeramicCoatings/>} />
-        <Route path="/hail-dent-repair" element={<HailDentRepair/>} />
-        <Route path="/paint-corrections" element={<PaintCorrections/>} />
-        <Route path="/vehicle-restoration" element={<VehicleRestoration/>} />
-        <Route path="/window-tinting" element={<WindowTinting/>} />
+
+
+        <Route path="/pdr" element={<PDR/>} />
+        <Route path="/door_ding" element={<DoorDing/>} />
+        <Route path="/collision" element={<Collision/>} />
+        <Route path="/detailing" element={<Detailing/>} />
+
+
     </Routes>
   )
 }
