@@ -12,10 +12,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../../assets/parallax/7.jpg");
-    min-height: 60vh;
+    min-height: 100vh;
 }
 .logo-contac{
-    width: 25vw;
+    width: 35vw;
 }
 
 .map{

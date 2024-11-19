@@ -1,4 +1,4 @@
-import MapView from '../../core/infrastructure/components/mapView/MapView'
+// import MapView from '../../core/infrastructure/components/mapView/MapView'
 import logo from "../../assets/logo3.png"
 import './Styles.css'
 import Form from '../../core/infrastructure/components/form/Form'
@@ -14,11 +14,11 @@ export const Contact = () => {
           </div>
       </div>
       <h2 style={{textAlign:"center"}}>Contact</h2>
-      <div className='contenedor mt-2'>
+      {/* <div className='contenedor mt-2' > */}
          
          <Form/>
 
-        <div className='map mt-2'>
+        {/* <div className='map mt-2'>
           <div className="container">
             <div className="row">
             <p>
@@ -38,8 +38,8 @@ export const Contact = () => {
             </div>
           </div>
           <MapView/>
-        </div> 
-      </div>
+        </div>  */}
+      {/* </div> */}
     </>
   )
 }

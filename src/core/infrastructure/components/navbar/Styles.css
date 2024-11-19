@@ -7,11 +7,14 @@
 }
 
 .navbar {
-    padding: 0.5rem 1rem; /* Ajusta el padding para reducir la altura */
+    padding: 0.5rem 1rem; 
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 }
 
 .navbar-logo {
-    width: 5.5rem; /* Ajusta el tamaño del logo */
+    width: 5.8rem; /* Ajusta el tamaño del logo */
     height: auto; /* Mantiene la proporción */
 }
 

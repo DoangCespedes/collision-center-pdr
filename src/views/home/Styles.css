@@ -148,3 +148,14 @@
         margin-top: -60px;
     }
 }
+
+@media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-container > div {
+      flex-basis: 100%;
+      padding: 1rem;
+    }
+  }

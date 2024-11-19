@@ -1,6 +1,6 @@
 import { FiPhoneCall } from "react-icons/fi";
 import { Link } from "react-router-dom";
-import logo from "../../../../../assets/logo2.png";
+import logo from "../../../../assets/logo2.png";
 import { FaFlagCheckered } from "react-icons/fa";
 import "./Styles.css";
 
@@ -8,7 +8,7 @@ const Appbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container-fluid">
-        <Link to='/'>
+        <Link to='/' className="nav-link btn btn-dark">
           <img src={logo} alt="Logo" className="navbar-logo" />
         </Link>
         <button
@@ -24,6 +24,11 @@ const Appbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link to='/contact' className="nav-link btn btn-secondary">
+                <h3 className="routes">Contact <FaFlagCheckered /></h3>
+              </Link>
+            </li>
             
             <li className="nav-item">
               <Link to='/pdr' className="nav-link btn btn-danger">
@@ -50,11 +55,7 @@ const Appbar = () => {
                 <h3 className="routes">Gallery <FaFlagCheckered /></h3>
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to='/contact' className="nav-link btn btn-secondary">
-                <h3 className="routes">Contact <FaFlagCheckered /></h3>
-              </Link>
-            </li>
+            
           </ul>
           <div className="navbar-text call">
             <h6>
